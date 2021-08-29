@@ -4,6 +4,7 @@
 [Script]
 AutoShopeeCheckin = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-checkin.js
 AutoJDCheckin = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+AutoiQIYICheckin = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 [MITM]
-hostname = %APPEND% shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
+hostname = %APPEND% shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, ifac*.iqiyi.com
