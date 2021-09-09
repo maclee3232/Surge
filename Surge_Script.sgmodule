@@ -9,4 +9,4 @@ AutoMcdonaldsCheckin = type=cron,cronexp=3 9 * * *,script-path=https://kinta.ma/
 AutoMcdonaldsLuckydraw = type=cron,cronexp=4 9 * * *,script-path=https://kinta.ma/surge/scripts/mcdonalds_luckydraw.js, wake-system=1, timeout=30
 
 [MITM]
-hostname = %APPEND% loyalty.shopee.tw, %APPEND% mcdapi.mcddailyapp.com.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
+hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, %APPEND% mcdapi.mcddailyapp.com.tw
