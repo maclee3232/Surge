@@ -4,7 +4,6 @@
 [Script]
 GetJDCookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 GetShopeeCookie = type=http-request,pattern=^https:\/\/loyalty\.shopee\.tw\/api\/v1\/coins$,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-cookie.js,script-update-interval=-1
-GetMcdonaldsCookie = type=http-request,pattern=^https:\/\/mcdapi\.mcddailyapp\.com\.tw\/McDonaldAPI\/member\/updateRegisterInfo$,script-path=https://kinta.ma/surge/scripts/mcdonalds_token.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, %APPEND% mcdapi.mcddailyapp.com.tw
+hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
