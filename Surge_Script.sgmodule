@@ -5,8 +5,6 @@
 AutoShopeeCheckin = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-checkin.js, wake-system=1, timeout=30
 AutoShopeeLuckydraw = type=cron,cronexp=1 9 * * *,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-luckydraw.js, wake-system=1, timeout=30
 AutoJDCheckin = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-AutoMcdonaldsCheckin = type=cron,cronexp=3 9 * * *,script-path=https://kinta.ma/surge/scripts/mcdonalds_checkin.js, wake-system=1, timeout=30
-AutoMcdonaldsLuckydraw = type=cron,cronexp=4 9 * * *,script-path=https://kinta.ma/surge/scripts/mcdonalds_luckydraw.js, wake-system=1, timeout=30
 
 [MITM]
-hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, %APPEND% mcdapi.mcddailyapp.com.tw
+hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
