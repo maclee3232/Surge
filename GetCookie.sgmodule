@@ -7,4 +7,4 @@ GetShopeeCookie = type=http-request,pattern=^https:\/\/loyalty\.shopee\.tw\/api\
 GetMcdonaldsCookie = type=http-request,pattern=^https:\/\/mcdapi\.mcddailyapp\.com\.tw\/McDonaldAPI\/member\/updateRegisterInfo$,script-path=https://kinta.ma/surge/scripts/mcdonalds_token.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% loyalty.shopee.tw, %APPEND% mcdapi.mcddailyapp.com.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
+hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, %APPEND% mcdapi.mcddailyapp.com.tw
