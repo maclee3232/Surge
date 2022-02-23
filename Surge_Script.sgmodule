@@ -5,10 +5,10 @@
 AutoShopeeCheckin = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-checkin.js, wake-system=1, timeout=30
 AutoShopeeLuckydraw = type=cron,cronexp=1 9 * * *,script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-luckydraw.js, wake-system=1, timeout=30
 AutoJDCheckin = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-AutoShopeeWaterCheckin1 = type=cron "19 10 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
-AutoShopeeWaterCheckin2 = type=cron "25 14 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
-AutoShopeeWaterCheckin3 = type=cron "39 18 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
-AutoShopeeWaterMission = type=cron "5 19 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission.js, wake-system=1, timeout=30
+cron "19 10 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
+cron "25 14 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
+cron "39 18 * * *" script-path=https://raw.githubusercontent.com/jkgtw/Surge/master/JS/shopee-watercheckin.js, wake-system=1, timeout=30
+cron "5 19 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission.js, wake-system=1, timeout=30
 
 [MITM]
 hostname = %APPEND% loyalty.shopee.tw, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
