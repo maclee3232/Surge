@@ -1,8 +1,8 @@
 #!name=京東簽到
-#!desc=每天早上 9 點5分自動簽到（需手動先保存 Cookie）
+#!desc=每天早上0點5分自動簽到（需手動先保存 Cookie）
 
 [Script]
-AutoJDCheckin = type=cron,cronexp=5 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+AutoJDCheckin = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 GetJDCookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 [MITM]
