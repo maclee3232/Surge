@@ -3,7 +3,7 @@
 
 [Script]
 cron "6 0 * * *" script-path=https://kinta.ma/surge/scripts/shopee_checkin.js, wake-system=1, timeout=30
-cron "7 0 * * *" script-path=https://kinta.ma/surge/scripts/shopee_luckydraw.js, wake-system=1, timeout=30
+cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Black-Magic-Lab/Surge/master/scripts/shopee_luckydraw.js, wake-system=1, timeout=30
 shopee_token.js = type=http-request,pattern=^https:\/\/mall\.shopee\.tw\/api\/v4\/microsite\/campaign_site_page,script-path=https://kinta.ma/surge/scripts/shopee_token.js,script-update-interval=-1
 
 [MITM]
