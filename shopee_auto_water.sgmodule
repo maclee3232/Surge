@@ -1,5 +1,5 @@
 #!name=蝦蝦果園自動做任務 & 領獎勵 & 澆水
-#!desc=每天自動做水滴任務，接近隔天午夜會自動把今天任務的獎勵全部用掉。每三小時自動澆水，每次換作物後需先手動澆水一次，讓 Surge 紀錄目前的作物。需要同時開啟每日自動簽到以獲得 token。 v20220301
+#!desc=每天自動做水滴任務，接近隔天午夜會自動把今天任務的獎勵全部用掉。每1.5小時自動澆水，每次換作物後需先手動澆水一次，讓 Surge 紀錄目前的作物。需要同時開啟每日自動簽到以獲得 token。 v20220301
 
 [Script]
 cron "10 10,14,18 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_checkin.js, wake-system=1, timeout=5
