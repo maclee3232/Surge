@@ -4,7 +4,7 @@
 [Script]
 cron "10 10,14,18 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_checkin.js, wake-system=1, timeout=5
 cron "8 0 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission.js, wake-system=1, timeout=30
-cron "4 */3 * * *" script-path=https://kinta.ma/surge/scripts/shopee_auto_water.js, wake-system=1, timeout=5
+cron "4 0,8,9,12,15,18,21 * * *" script-path=https://kinta.ma/surge/scripts/shopee_auto_water.js, wake-system=1, timeout=5
 cron "57 23 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_signin_bundle.js, wake-system=1, timeout=30
 cron "58 23 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission_claim.js, wake-system=1, timeout=30
 shopee_get_crop.js = type=http-request,pattern=^https:\/\/games\.shopee\.tw\/farm\/api\/orchard\/crop\/water(.*),script-path=https://kinta.ma/surge/scripts/shopee_get_crop.js,requires-body=true,script-update-interval=-1
