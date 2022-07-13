@@ -3,6 +3,7 @@
 
 [Script]
 cron "10 10,14,18 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_checkin.js, wake-system=1, timeout=5
+cron "14 0 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_buy_free_item.js, wake-system=1, timeout=5
 cron "8 0,8,23 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission.js, wake-system=1, timeout=30
 cron "4 0,8,9,12,15,18,21 * * *" script-path=https://kinta.ma/surge/scripts/shopee_auto_water.js, wake-system=1, timeout=5
 cron "34 10,13,16,19,22 * * *" script-path=https://kinta.ma/surge/scripts/shopee_auto_water.js, wake-system=1, timeout=5
