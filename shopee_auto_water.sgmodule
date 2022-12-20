@@ -1,4 +1,5 @@
-
+#!name=蝦蝦果園自動化
+#!desc=每天自動做水滴任務，接近隔天午夜會自動把今天任務的獎勵全部用掉。每小時自動澆水，每次換作物後需先手動澆水一次，讓 Surge 紀錄目前的作物。道具商店水滴需先手動領一次，往後會自動領。需要同時開啟每日自動簽到以獲得 token。 v20221129v2
 
 [Script]
 [蝦蝦果園]自動收成 = type=cron, cronexp="0 * * * *", script-path=https://kinta.ma/surge/scripts/shopee_auto_harvest.js, wake-system=1, timeout=5
