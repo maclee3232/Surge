@@ -4,7 +4,7 @@
 [Script]
 [蝦蝦果園]自動種植 = type=cron, cronexp="0 0 * * *", script-path=https://raw.githubusercontent.com/Black-Magic-Lab/Surge/master/scripts/shopee_auto_crop.js, wake-system=1, timeout=30
 [蝦蝦果園]取得種子token = type=http-request, pattern=^https:\/\/games\.shopee\.tw\/farm\/api\/orchard\/crop\/create(.*), script-path=https://raw.githubusercontent.com/Black-Magic-Lab/Surge/master/scripts/shopee_get_crop_token.js, requires-body=true
-[蝦蝦果園]設定搶種子名稱 = script-path=https://github.com/Black-Magic-Lab/Surge/blob/master/scripts/shopee_set_crop_name.js
+[蝦蝦果園]設定搶種子名稱 = script-path=https://raw.githubusercontent.com/Black-Magic-Lab/Surge/master/scripts/shopee_set_crop_name.js
 
 [MITM]
 hostname = %APPEND% games.shopee.tw
